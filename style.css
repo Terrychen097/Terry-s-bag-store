@@ -1,0 +1,155 @@
+html, body{
+    margin: 0;
+    height: 100%;
+    max-height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    flex: 1;
+    background-color: black;
+    color: whitesmoke;
+    weight: 100%;
+    max-width: 100%;
+}
+#wrapper{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+#right-sidebar{
+    font-size: 1.5em;
+    color: whitesmoke;
+}
+
+#app{
+    flex: 9;
+    display: flex;
+}
+
+#menu{
+    flex: 1;
+}
+
+#main{
+    flex: 6;
+    background-image: url("images/carolina-sanchez-ZvfCF9Ftr0Y-unsplash (1).jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+#right-sidebar a{
+    text-decoration: none;
+    color: whitesmoke;
+    transition: color 0.5s;
+    
+}
+
+#right-sidebar a:hover{
+    color: lightskyblue;
+    border-bottom: 1px solid skyblue;
+}
+
+/*  cards */
+.product-card {
+    float: left;
+    width: 340px;
+    box-shadow: 0 2px 7px #dfdfdf;
+    margin: 30px 10px 10px 10px;
+    background: #fafafa;
+}
+
+.product-pic img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.product-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    padding: 50px;
+    background: #f0f0f0;
+}
+
+.product-details {
+    padding: 30px;
+}
+
+.product-price small {
+    font-size: 80%;
+    font-weight: 400;
+    text-decoration: line-through;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.product-catagory {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ccc;
+    margin-bottom: 18px;
+}
+
+.product-details h4 a {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    color: #363636;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.product-details h4 a:hover {
+    color: #fbb72c;
+}
+
+.product-details p {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 18px;
+    color: gray;
+}
+
+.product-bottom-details {
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.product-bottom-details div {
+    float: left;
+    width: 60%;
+}
+
+.product-price {
+    font-size: 20px;
+    color: slateblue;
+    font-weight: 600;
+}
+
+/* menu */
+
+#menu h1{
+    font-size: 2.3em;
+}
+
+#menu a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+#menu li{
+    padding: 2px;
+}
+

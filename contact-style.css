@@ -1,0 +1,40 @@
+/* contact */
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+
+body{
+    display: flex;
+    flex-direction: row;
+}
+#wrapper-top{
+    flex: 2;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    font-size: 1.5em;
+}
+
+#wrapper-bottom{
+    flex: 8;
+}
+
+#wrapper-top-right a:hover{
+    color: lightskyblue;
+    border-bottom: 1px solid skyblue;
+}
+ form{
+     margin-top: 2em;
+    max-width: auto;
+    min-width: auto; 
+
+    display: grid;
+    grid-gap: 15px;
+ }
+
+ form label{
+     font-size: 1.2em;
+ }
+
+ form input{
+     padding: 0.4px;
+     font-size: 1.1em;
+ }
